@@ -1,0 +1,73 @@
+body,html{
+    height: 100%;
+    margin:0 auto;
+}   
+
+.link{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    font-family: arial;
+} 
+.link:hover{
+    background-color: #f05b57;
+    color: #fff;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://dbkpop.com/wp-content/uploads/2019/03/bts_map_of_the_soul_persona_concept_all_1-2000x1333.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 60px 0px;
+}
+/*heading*/
+.heading-1{
+    font-family: arial;
+    font-size: 60px;
+    color: white;
+    margin: auto;
+}
+.heading-1:hover{
+    color: pink;
+    box-shadow: 10px;
+    transform: scaleY(1.2);
+    border: solid 40px;
+    padding: 10px;
+    margin: 50px;
+}
+.heading-2{
+    font-family: arial;
+    font-size: 40px;
+    color: #000;
+    margin: auto;
+}
+.heading-3{
+    font-family: arial;
+    font-size: 20px;
+    color: #000;
+    margin: auto;
+}
+
+/**Section Content**/
+.content{
+    width: 100%;
+    min-height: 400px;
+    background-color:#f8f8f8;
+    padding: 100px 0px;
+}
+
+/**content 2**/
+.content2{
+    background: #692C3E;
+    width: 100%;
+    background-image: url(https://thegeneralidea.org/wp-content/uploads/2019/10/rs_1024x415-190412044150-Screen_Shot_2019-04-12_at_19.41.05-900x365.png);
+    min-height: 100%;
+    padding: 50px 0px;
+}
+.col-border{
+    min-height: 100px;
+    border: solid 1px #fff;
+    text-align: center;
+    padding:10px 0px;
+}
